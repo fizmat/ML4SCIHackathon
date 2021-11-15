@@ -4,19 +4,23 @@ channels:
   - defaults
 dependencies:
   - jupyterlab
-  
+
   - pandas
   - xarray
-  
+  - toolz
+
   - matplotlib
   - holoviews
   - hvplot
   - bokeh
-  
+
   - pandas-profiling>=3
   - ipywidgets
   - scikit-learn
   - scikit-image
-  
-  - pip:       
-    - nb-clean 
+  - xgboost
+  - tensorflow
+  - keras
+
+  - pip:
+    - nb-clean
