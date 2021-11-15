@@ -17,3 +17,6 @@ dependencies:
   - ipywidgets
   - scikit-learn
   - scikit-image
+  
+  - pip:       
+    - nb-clean 
