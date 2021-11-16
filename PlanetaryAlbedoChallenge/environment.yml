@@ -19,8 +19,14 @@ dependencies:
   - scikit-learn
   - scikit-image
   - xgboost
-  - tensorflow
+  - tensorflow>=2
   - keras
+  - pydot
+  - graphviz
 
+  # - tensorflow-gpu
+  # - cudatoolkit
+
+  - pip
   - pip:
     - nb-clean
