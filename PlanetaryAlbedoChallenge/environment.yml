@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - jupyterlab
+  - jupyterlab=3.2.3
 
   - pandas
   - xarray
@@ -13,19 +13,17 @@ dependencies:
   - holoviews
   - hvplot
   - bokeh
+  - pydot
 
   - pandas-profiling>=3
   - ipywidgets
-  - scikit-learn
+  - scikit-learn=1.0.1
   - scikit-image
   - xgboost
-  - tensorflow>=2
+  - tensorflow=2.6
   - keras
-  - pydot
-  - graphviz
 
-  # - tensorflow-gpu
-  # - cudatoolkit
+#  - tensorflow-gpu
 
   - pip
   - pip:
